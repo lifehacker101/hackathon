@@ -1,0 +1,5 @@
+db.tasks.insert({ lessonheader: "", createdAt: new Date(), videolink: "https://www.youtube.com/watch?v=UdL7hK45RkE", question: "what does a bird do?", answer: "fly" });
+db.lessons.insert({ lessonheader: "", createdAt: new Date(), videolink: "https://www.youtube.com/watch?v=UdL7hK45RkE", question: "what does a bird do?", answer: "fly" });
+db.dropDatabase();
+db.lessons.insert({ lesson: "lesson_1", createdAt: new Date(), videolink: "https://www.youtube.com/watch?v=UdL7hK45RkE", question: "what does a bird do?", answer: "fly", lessoninfo: "we are learning about birds" });
+db.lessons.insert({ lesson: "lesson_1", createdAt: new Date(), videolink: "https://www.youtube.com/embed/UdL7hK45RkE", question: "what does a bird do?", answer: "fly", lessoninfo: "we are learning about birds" });
