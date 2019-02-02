@@ -1,0 +1,38 @@
+<template name="lesson">
+    <div class="container-fluid">
+    <br>
+    <div class="jumbotron">
+
+        <!-- lesson info -->
+        <h1 class="display-4">{{text}}</h1>
+        <!-- iframe -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6u5a7_-a3vM"></iframe>
+        </div>
+        <br>
+        <h3>teachers</h3>
+        <br>
+        <div class="row">
+
+            <div class="col">
+                <img class="teacher rounded mx-auto d-block" src="https://cdn.pixabay.com/photo/2015/01/22/15/13/businessman-607834_960_720.png" alt="Avatar" style="width:100px">
+                <p class="text-center rounded mx-auto d-block">bob</p>
+            </div>
+            <div class="col">
+                <img class="teacher rounded mx-auto d-block" src="https://cdn.pixabay.com/photo/2015/01/22/15/13/businessman-607834_960_720.png" alt="Avatar" style="width:100px">
+                <p class="text-center">bob</p>
+            </div>
+        </div>
+
+        <hr class="my-4">
+        <p>question: </p>
+        <div class="form">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+              </div>
+        <br>
+        <a class="btn btn-primary btn-lg" href="#" role="button">submit answer</a>
+    </div>
+</div>
+</template>

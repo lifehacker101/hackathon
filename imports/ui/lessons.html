@@ -1,3 +1,7 @@
 <template name="lessons">
-    <h1>lessons loaded</h1>
+    <ul>
+        {{#each lessons}}
+            {{> lesson}}
+        {{/each}}
+    </ul>
 </template>
