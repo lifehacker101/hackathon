@@ -1,4 +1,21 @@
 <template name="profile">
-    <h1>i am profile</h1>
-    
+    <img src="https://static.thenounproject.com/png/538846-200.png" class="rounded mx-auto d-block" alt="profile image">
+    <br>
+    <h4 class="text-center">Huckleberry Finn</h4>
+    <p class="text-center">50 points Total <i class="fa fa-star" aria-hidden="true"></i></p>
+    <p class="text-center">50/100 points until next reward of Icecream <i class="fa fa-star" aria-hidden="true"></i></p>
+    <div class="container">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Parent Account" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">Submit</span>
+                </div>
+            </div>
+    </div>
+    <h1 class="text-center">Lessons you created</h1>
+    <ul>
+        {{#each profilelessons}}
+            {{> profilelesson}}
+        {{/each}}
+    </ul>
 </template>

@@ -10,8 +10,10 @@ import '../imports/ui/profile.html';
 import '../imports/ui/navbar.html';
 import '../imports/ui/createlesson.html';
 import '../imports/ui/lesson.html';
+import '../imports/ui/profilelesson.html';
 
 // importing js files
 import '../imports/ui/lessons.js';
+import '../imports/ui/profile.js';
 
 import './routes.js';
