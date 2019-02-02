@@ -1,0 +1,10 @@
+<template name="alllessons">
+{{#each alllessons}}
+{{> alllesson}}
+{{/each}}
+</template>
+<template name="alllesson">
+    <div class="jumbotron">
+        <h1 class="text-center">{{ lesson}}</h1>
+    </div>
+</template>

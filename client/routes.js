@@ -9,6 +9,10 @@ Router.map(function(){
         path: '/lessons',
         template: 'lessons'
     }),
+    this.route('alllessons', {
+        path: '/alllessons',
+        template: 'alllessons'
+    }),
     this.route('home', {
         path: '/',
         template: 'home'
