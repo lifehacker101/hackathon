@@ -1,10 +1,18 @@
 <template name="alllessons">
-{{#each alllessons}}
-{{> alllesson}}
-{{/each}}
+    <div class="container">
+        <div class="row">
+            {{#each alllessons}}
+                {{> alllesson}}
+            {{/each}}
+        </div>
+
+    </div>
 </template>
 <template name="alllesson">
-    <div class="jumbotron">
-        <h1 class="text-center">{{ lesson}}</h1>
-    </div>
+        <div class="col-md-6 col-xs-12">
+        <div class="jumbotron lessonjumbotron">
+            <a href="/lesson/{{lesson}}" class="lessonLink"><h1 class="text-center">Choice of {{ lessoninfo }}</h1>
+            <p class="text-center" style="padding-top: 27px;color:black;font-size:23px">with {{creator}}</p></a>
+        </div>
+        </div>
 </template>

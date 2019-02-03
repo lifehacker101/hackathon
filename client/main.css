@@ -6,4 +6,35 @@
 /* teacher image */
 .teacher {
   border-radius: 50%;
+  width: 100px;
+  margin-bottom: 22px;
+}
+
+.maincontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 25px
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  background-color:#2d2dff;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.lessonjumbotron{
+  background-color: #0066c0;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+.lessonLink{
+  color: white;
 }

@@ -5,36 +5,18 @@
             <!-- lesson info -->
             <h1 class="display-4">{{lesson}}</h1>
             <!-- iframe -->
-            <div class="embed-responsive embed-responsive-16by9">
+            <div class="embed-responsive embed-responsive-16by9" style="height:400px;">
                 <iframe class="embed-responsive-item" src="{{videolink}}"></iframe>
         
             </div>
             <br>
             <h2>teachers</h2>
             <br><br>
-            <div class="row">
-    
-                <div class="col">
-                    <img class="teacher rounded mx-auto d-block" src="https://cdn.pixabay.com/photo/2015/01/22/15/13/businessman-607834_960_720.png" alt="Avatar" style="width:100px">
-                    <p class="text-center rounded mx-auto d-block">bob</p>
-                </div>
-                <div class="col">
-                    <img class="teacher rounded mx-auto d-block" src="https://cdn.pixabay.com/photo/2015/01/22/15/13/businessman-607834_960_720.png" alt="Avatar" style="width:100px">
-                    <p class="text-center">bob</p>
-                </div>
-            </div>
-    
             <hr class="my-4">
             <h2>lesson info: {{lessoninfo}}</h2>
             <br>
             <h2>question: {{question}}</h2>
-            <div class="form">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="input answer">
-                    </div>
-                  </div>
             <br>
-            <a class="btn btn-primary btn-lg" href="#" role="button">submit answer</a>
         </div>
     </div>
     </template>
